@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Docs - PongWeb</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="site-head">
+ <a class="logo" href="index.html">PongWeb</a>
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="features.html">Features</a>
+ <a href="docs.html">Docs</a>
+ </nav>
+ </header>
+ <main>
+ <section class="docs">
+ <h1>Documentation</h1>
+ <h2>Quick start</h2>
+ <pre><code>$ git clone &lt;repo-url&gt;
+$ cd pongweb
+$ open index.html</code></pre>
+ <h2>Layout</h2>
+ <p>Everything lives in the project root. The main page is index.html. Styling lives in styles.css and small helpers in app.js.</p>
+ <h2>Customizing</h2>
+ <p>Change the colors in the CSS variables at the top of styles.css. Add pages as new HTML files and link them from the header.</p>
+ <h2>Deploying</h2>
+ <p>Upload the folder to any static host, or open it directly from disk. No build step required.</p>
+ </section>
+ </main>
+ <footer>PongWeb - docs.</footer>
+ <script src="app.js"></script>
+</body>
+</html>

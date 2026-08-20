@@ -1,0 +1,5 @@
+.byline { color: var(--dim); font-size: 12px; margin-top: 10px; font-family: var(--mono, monospace); }
+.shot { font-size: 48px; color: var(--violet); margin-bottom: 10px; }
+.stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 14px; margin: 40px 0; }
+.stats-row .stat { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 18px; text-align: center; }
+.stats-row .stat b { display: block; font-size: 26px; font-family: var(--mono, monospace); }

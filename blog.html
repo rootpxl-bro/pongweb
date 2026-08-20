@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Blog - PongWeb</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="site-head">
+ <a class="logo" href="index.html">PongWeb</a>
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="features.html">Features</a>
+ <a href="blog.html">Blog</a>
+ </nav>
+ </header>
+ <main>
+ <section class="hero">
+ <div class="badge">Journal</div>
+ <h1>Notes from the build</h1>
+ <p class="lede">Short posts about how PongWeb is designed and why.</p>
+ </section>
+ <section class="features">
+ <article><h3>Why a small core</h3><p>Keeping the core tiny means fewer bugs and easier reviews. Everything else hangs off hooks and plugins.</p><p class="byline">week 1</p></article>
+ <article><h3>Errors are data</h3><p>Every failure carries a code and context. Logs become searchable and debugging stops being guesswork.</p><p class="byline">week 2</p></article>
+ <article><h3>Measuring what matters</h3><p>A handful of metrics beats a dashboard full of noise. We track the ones that change decisions.</p><p class="byline">week 3</p></article>
+ </section>
+ </main>
+ <footer>PongWeb - blog.</footer>
+ <script src="app.js"></script>
+</body>
+</html>

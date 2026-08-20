@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Contact - PongWeb</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header class="site-head">
+ <a class="logo" href="index.html">PongWeb</a>
+ <nav>
+ <a href="index.html">Home</a>
+ <a href="features.html">Features</a>
+ <a href="contact.html">Contact</a>
+ </nav>
+ </header>
+ <main>
+ <section class="hero">
+ <div class="badge">Get in touch</div>
+ <h1>Say hello</h1>
+ <p class="lede">Questions, ideas or feedback are always welcome.</p>
+ </section>
+ <section class="start" style="max-width:640px;margin:0 auto 60px;">
+ <form onsubmit="event.preventDefault(); document.getElementById('sent').textContent = 'Thanks. This demo form does not send anything.';">
+ <label style="display:block;margin-bottom:12px;">Message<textarea rows="5" style="width:100%;background:#0a0e1c;border:1px solid #1d2540;color:#e7e9f4;border-radius:10px;padding:12px;font-family:inherit;margin-top:6px;" placeholder="Write something..."></textarea></label>
+ <button class="btn primary" type="submit">Send</button>
+ <p id="sent" style="color:var(--cyan);margin-top:12px;"></p>
+ </form>
+ </section>
+ </main>
+ <footer>PongWeb - contact.</footer>
+ <script src="app.js"></script>
+</body>
+</html>
